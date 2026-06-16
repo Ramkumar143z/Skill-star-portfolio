@@ -5,11 +5,8 @@ git add .
 echo Committing...
 git commit -m "Fix unused useState error"
 
-echo Pulling latest changes from GitHub (merging any remote updates)...
-git pull origin main --no-rebase
-
-echo Pushing to GitHub...
-git push -u origin main
+echo Force pushing to GitHub to overwrite conflicts...
+git push -f -u origin main
 
 echo Done!
 pause
