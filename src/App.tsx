@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import './App.css'
 
 const frameModules = import.meta.glob('./assets/skill star/*.jpg', { eager: true, import: 'default' });
